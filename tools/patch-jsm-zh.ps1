@@ -1,4 +1,4 @@
-# patch-jsm-zh.ps1
+﻿# patch-jsm-zh.ps1
 # 下载 JoyShockMapper 官方发布包, 将托盘右键菜单本地化为中文, 并写入桌面控制配置。
 # 用法: powershell -ExecutionPolicy Bypass -File tools\patch-jsm-zh.ps1
 param(

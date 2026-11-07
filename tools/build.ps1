@@ -1,4 +1,4 @@
-# build.ps1
+﻿# build.ps1
 # 用系统自带的 .NET Framework csc 编译器编译 JSMGuard 与 OskNavHelper (无需安装任何 SDK)。
 # 用法: powershell -ExecutionPolicy Bypass -File tools\build.ps1
 param(
