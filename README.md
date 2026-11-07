@@ -77,3 +77,12 @@ out\JSMGuard.exe
 本项目代码以 MIT 许可证发布（见 LICENSE）。JoyShockMapper 为 MIT 许可的第三方项目，
 其版权声明与许可证全文见 THIRD-PARTY-NOTICES.md；托盘菜单汉化是**非官方**修改，
 请勿向上游项目反馈本修改版的问题。
+
+---
+
+## Fork 说明
+
+中文托盘菜单补丁同时维护在 JoyShockMapper 的 fork 仓库中（与上游保持可见的来源关系，符合 GitHub 社区规范）：
+
+- Fork 仓库: https://github.com/LZZ-66/JoyShockMapper
+- 补丁目录: [zh-CN-localization](https://github.com/LZZ-66/JoyShockMapper/tree/master/zh-CN-localization)
