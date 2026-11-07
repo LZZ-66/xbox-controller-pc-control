@@ -1,0 +1,46 @@
+# =====================================================================
+#  Xbox 手柄 -> 鼠标/键盘 桌面控制配置
+#  修改本文件后, 重启 JoyShockMapper 即可生效
+#  光标速度: 调 STICK_SENS (默认 220, 越大越快; 已关闭推到底加速)
+#  滚动速度: 调 TURBO_PERIOD (默认 90 毫秒/格, 数值越小滚得越快)
+# =====================================================================
+RESET_MAPPINGS
+HIDE_MINIMIZED = ON        # 最小化时隐藏任务栏图标 (系统托盘保留, 右键可退出)
+
+# ---------- 鼠标指针 (左摇杆移动光标) ----------
+REAL_WORLD_CALIBRATION = 5.3333
+COUNTER_OS_MOUSE_SPEED
+LEFT_STICK_MODE = AIM
+STICK_SENS = 220
+STICK_POWER = 1
+STICK_ACCELERATION_RATE = 0
+STICK_ACCELERATION_CAP = 1
+
+# ---------- 滚轮 (右摇杆: 上推=向上滚, 下推=向下滚, 按住连续滚动) ----------
+RIGHT_STICK_MODE = NO_MOUSE
+RUP = SCROLLUP+
+RDOWN = SCROLLDOWN+
+TURBO_PERIOD = 90
+
+# ---------- 鼠标按键 ----------
+L = RMOUSE                # LB 肩键: 鼠标右键
+R = LMOUSE                # RB 肩键: 鼠标左键
+ZL = BMOUSE               # LT 扳机: 后退
+ZR = FMOUSE               # RT 扳机: 前进
+L3 = MMOUSE               # 按下左摇杆: 中键
+R3 = TAB                  # 按下右摇杆: Tab
+TRIGGER_THRESHOLD = 0.5   # 扳机按下一半才触发, 防误触
+
+# ---------- 键盘按键 ----------
+UP = UP                   # 十字键 = 方向键
+DOWN = DOWN
+LEFT = LEFT
+RIGHT = RIGHT
+S = ENTER                 # A: 回车
+E = ESC                   # B: Esc
+W = SPACE                 # X: 空格
+N = BACKSPACE LCONTROL    # Y: 短按=退格, 长按=Ctrl
+- = CONTROL\ LWINDOWS\ O\     # View键: 屏幕键盘
++ = LALT\ !TAB\ LWINDOWS_     # Menu键: 短按=Alt+Tab, 长按=开始菜单
+HOME = LWINDOWS           # Xbox键: 开始菜单
+HOME,HOME = LWINDOWS\ D\  # 双击Xbox键: 显示桌面

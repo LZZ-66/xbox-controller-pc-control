@@ -1,0 +1,6 @@
+# 构建产物与本地生成文件
+vendor/
+out/
+*.exe
+*.bak
+*.log
